@@ -32,9 +32,13 @@ This toolkit is built to help users improve their **cybersecurity awareness**. I
 🧪 **Sample Outputs**
 
 📸 **Phishing Email Detection Output**
+
+
 ![Phishing Output](screenshots/phishing_output.png)
 
 🔐 **Password Strength Checker Output**
+
+
 ![Password Output](screenshots/password_output.png)
 
 
