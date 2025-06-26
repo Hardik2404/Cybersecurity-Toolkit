@@ -1,0 +1,10 @@
+<h2>Phishing Detector</h2>
+<form method="POST">
+    <textarea name="email" rows="10" cols="80" placeholder="Paste email content here..."></textarea><br>
+    <input type="submit" value="Scan Email">
+</form>
+{% if result %}
+    <h3>Result: {{ result }}</h3>
+    <ul>{% for issue in issues %}<li>{{ issue }}</li>{% endfor %}</ul>
+{% endif %}
+<a href="/">← Back to Home</a>
